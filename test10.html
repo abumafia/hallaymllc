@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HALLAYM LLC</title>
+    <style>
+        /* Umumiy Stil */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #f4f4f9;
+            color: #333;
+            overflow-x: hidden;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Navbar */
+        nav {
+            background: #0077cc;
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 30px;
+            align-items: center;
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            padding: 8px 15px;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+        nav ul li a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 5px;
+            transform: scale(1.1);
+        }
+
+        /* Sahifalar */
+        .page {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .page h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .page p {
+            font-size: 1.2rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* Galereya */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .gallery img {
+            width: calc(33% - 10px);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer */
+        footer {
+            background: #0077cc;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">HALLAYM LLC</div>
+        <ul>
+            <li><a href="#bosh-sahifa">Bosh sahifa</a></li>
+            <li><a href="#xizmatlar">Xizmatlar</a></li>
+            <li><a href="#galereya">Galereya</a></li>
+            <li><a href="#maqola">Maqola</a></li>
+            <li><a href="#aloqa">Aloqa</a></li>
+        </ul>
+    </nav>
+
+    <!-- Bosh sahifa -->
+    <section id="bosh-sahifa" class="page">
+        <h1>Bosh Sahifa</h1>
+        <p>Marketing Agency!!!</p>
+    </section>
+
+    <!-- Xizmatlar -->
+    <section id="xizmatlar" class="page">
+        <h1>Xizmatlar</h1>
+        <p>Biz turli sohalarda xizmatlar ko'rsatamiz: veb-dizayn, dasturiy ta'minot va ko'plab boshqa yechimlar!
+HTML, CSS, Javascript, Phyton, Php, Ruby, Flutter Dasturlash tillari bo'yicha mutaxasislar mavjud!
+CEO tizimini rivojlantirish bo'yicha kuchli mutaxasislar mavjud!
+HALLAYM LLC</p>
+    </section>
+
+    <!-- Galereya -->
+    <section id="galereya" class="page">
+        <h1>Galereya</h1>
+        <div class="gallery">
+            <img src="https://fps.cdnpk.net/images/ai/image-generator/gallery/resource-tti-15.webp" alt="Rasm 1">
+            <img src="https://img.freepik.com/free-vector/flat-design-online-courses-illustration_52683-37617.jpg?ga=GA1.1.70591297.1736784577&semt=ais_tags_boosted">
+            <img src="https://img.freepik.com/premium-vector/software-programmer-cartoon_24640-24023.jpg?ga=GA1.1.70591297.1736784577&semt=ais_tags_boosted" alt="Rasm 3">
+            <img src="https://img.freepik.com/free-vector/app-development-concept-with-laptop_23-2148699364.jpg?ga=GA1.1.70591297.1736784577&semt=ais_tags_boosted" alt="Rasm 4">
+            <img src="https://img.freepik.com/free-vector/domain-names-concept-illustration_114360-3344.jpg?ga=GA1.1.70591297.1736784577&semt=ais_tags_boosted" alt="Rasm 5">
+            <img src="https://img.freepik.com/free-vector/programming-concept-illustration_114360-2717.jpg?ga=GA1.1.70591297.1736784577&semt=ais_tags_boosted" alt="Rasm 6">
+        </div>https:HALLAYM LLC - Marketing Agency. </section>
+
+    <!-- Maqola -->
+    <section id="maqola" class="page">
+        <h1>Maqola</h1>
+        <p>**HALLAYM LLC: Your One-Stop Solution for Digital Excellence**  
+
+HALLAYM LLC is a premier marketing agency dedicated to helping businesses thrive in the digital world. With a diverse team of experts specializing in programming languages such as HTML, CSS, JavaScript, Python, PHP, Flutter, and Ruby, we deliver cutting-edge solutions tailored to your unique needs.  
+
+Our team is passionate about turning ideas into reality, offering services that range from developing stunning websites and mobile applications to creating custom software solutions. Beyond programming, we excel in social media account management, driving growth, and maximizing your online presence through impactful advertising campaigns.  
+
+At HALLAYM LLC, we understand the dynamic nature of the internet. That’s why we provide a full suite of digital services, including SEO optimization, branding, and content creation, ensuring your business stands out in a crowded marketplace.  
+
+Let us handle the complexities of the digital world while you focus on what you do best. Partner with HALLAYM LLC today and experience the power of expert-driven, results-oriented digital solutions.  
+
+Your success is our mission!</p></section>
+
+    <!-- Aloqa -->
+    <section id="aloqa" class="page">
+        <h1>Aloqa</h1>
+        <p>Biz bilan bog'lanish uchun quyidagi email manzilga yozing: <a href="mailto:hallaym0@gmail.com">hallaym0@gmail.com</a>.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 HALLAYM LLC. Barcha huquqlar himoyalangan.</p>
+    </footer>
+</body>
+</html>
